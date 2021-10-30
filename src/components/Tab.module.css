@@ -1,0 +1,36 @@
+fieldset {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.first, .second, .third {
+    padding: 15px 50px;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid grey;
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+
+.first:hover, .second:hover, .third:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: ease-in-out 0.25s;
+}
+
+.p {
+    text-align: center;
+    color: red;
+}
+
+.content {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px;
+    height: 400px;
+}
